@@ -49,3 +49,33 @@ This project focuses on cleaning and preprocessing a hotel booking dataset to pr
 
 ## 📁 Repository Structure
 
+---
+
+## 📊 Sample Insights Enabled After Cleaning
+
+- Booking trends and cancellation rates
+- Impact of lead time and deposit type
+- Hotel-wise booking distribution
+
+---
+
+## ✅ Conclusion (40 Words)
+
+Cleaned and standardized the hotel booking dataset to improve data reliability, reduce noise, and ensure consistency. The refined dataset is now ready for accurate exploratory analysis and predictive modeling, laying the foundation for deeper business and customer behavior insights.
+
+---
+
+## 👨‍💻 Author
+
+**Abdul Rahim**  
+📧 [YourEmail@example.com]  
+📍 Islamabad, Pakistan  
+💼 Aspiring Business Analyst | Certified in Data Science (NUST)
+
+---
+
+## 📎 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+
