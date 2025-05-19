@@ -1,54 +1,51 @@
-# Hotel_data-cleaning-set
-Hotel Booking Data Cleaning Project
-📌 Overview
-This project focuses on cleaning and preparing a Hotel Booking dataset for further analysis and insights. The dataset includes reservation records, customer behavior, and booking preferences. The primary goal was to ensure data quality by identifying and resolving inconsistencies, missing values, and formatting issues.
+# 🏨 Hotel Booking Data Cleaning Project
 
-🧹 Objectives
-Handle missing values and duplicate records.
+## 📘 Project Overview
 
-Correct data types and format inconsistencies.
+This project focuses on cleaning and preprocessing a hotel booking dataset to prepare it for further analysis and machine learning tasks. The dataset contains records of hotel bookings including customer preferences, reservation details, and cancellation history. Cleaning this dataset is crucial for extracting reliable insights and building predictive models.
 
-Identify and remove outliers.
+---
 
-Prepare a clean dataset ready for analysis and visualization.
+## 🎯 Objectives
 
-🛠️ Tools & Technologies
-Python
+- Handle missing values, duplicates, and inconsistent entries.
+- Correct data types for accurate computation.
+- Remove outliers and noise to improve data quality.
+- Prepare a clean dataset for analysis and visualization.
 
-Pandas
+---
 
-NumPy
+## 🔧 Technologies Used
 
-Jupyter Notebook
+- **Python**
+- **Pandas** for data manipulation
+- **NumPy** for numerical operations
+- **Seaborn & Matplotlib** (optional: for initial visualization)
+- **Jupyter Notebook** as the development environment
 
-Seaborn (for initial visual checks)
+---
 
-🔍 Key Steps Performed
-Data Import & Initial Exploration
-Loaded dataset and reviewed key metrics (shape, data types, nulls).
+## 🔍 Cleaning Workflow
 
-Missing Value Treatment
-Replaced or dropped null values based on feature importance and data context.
+1. **Data Loading & Exploration**
+   - Loaded dataset and checked shape, types, and null values.
+   
+2. **Missing Value Treatment**
+   - Used logical imputation and row removal based on data context.
 
-Duplicate Removal
-Identified and removed duplicate booking records to ensure data integrity.
+3. **Data Type Conversion**
+   - Transformed date and Boolean fields to correct types.
 
-Data Type Corrections
-Converted columns like dates and booleans to appropriate types.
+4. **Duplicate and Inconsistency Handling**
+   - Removed duplicate rows and standardized categorical values.
 
-Outlier Detection
-Used statistical methods and visual inspection to flag and clean anomalies.
+5. **Outlier Detection & Removal**
+   - Identified and eliminated extreme values using statistical methods.
 
-Feature Cleaning
-Trimmed text, standardized categorical values, and removed redundant columns.
+6. **Final Dataset Export**
+   - Saved the cleaned dataset for future use in analytics or ML tasks.
 
-📊 Outcome
-A cleaned and structured dataset that ensures accuracy and reliability for further analysis, machine learning models, or business intelligence reporting.
+---
 
-📁 Files
-hotel_Cleaning_nust.ipynb: Jupyter Notebook containing full data cleaning workflow.
+## 📁 Repository Structure
 
-👨‍💻 Author
-Abdul Rahim
-Aspiring Business Analyst | Data Analytics Enthusiast
-Certified in Data Science from NUST
